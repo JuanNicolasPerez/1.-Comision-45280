@@ -29,7 +29,7 @@ const productos = [
     },
     {
         id: 5,
-        nombre: "Útiles Escolares Revendedores",
+        nombre: "Revendedores",
         precio: 27890,
         img: "./img/1.jpg",
         cantidad: 1,

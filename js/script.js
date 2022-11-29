@@ -52,7 +52,7 @@ productos.forEach(producto => {
     });
 });
 
-const pintarCarrito = () => {
+function pintarCarrito () {
     modalcontainer.innerHTML = "";
     modalcontainer.style.display = "flex";
     const modalheader = document.createElement("div");
@@ -122,7 +122,7 @@ const pintarCarrito = () => {
 
 vercarrito.addEventListener("click", pintarCarrito);
 
-const eliminarproducto = (id) => {
+function eliminarproducto (id){
     const foundId = carrito.find((element) => element.id === id)
 
     carrito = carrito.filter((carritoId) => {
