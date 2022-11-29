@@ -1,0 +1,61 @@
+const productos = [
+    {
+        id: 1,
+        nombre: "Lapices de colores",
+        precio: 6990,
+        img: "./img/Lapices_colores.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 2,
+        nombre: "kit Lapices de colores",
+        precio: 4790,
+        img: "./img/Lapices_coloress.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 3,
+        nombre: "Marcadores de colores",
+        precio: 11390,
+        img:"./img/Marcadores_colores.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 4,
+        nombre: "kit Marcadores",
+        precio: 8790,
+        img: "./img/Marcadores_coloress.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 5,
+        nombre: "Útiles Escolares Revendedores",
+        precio: 27890,
+        img: "./img/1.jpg",
+        cantidad: 1,
+    },{
+        id: 6,
+        nombre: "Kit Marcadores.",
+        precio: 3800,
+        img: "./img/2.jpg",
+        cantidad: 1,
+    },{
+        id: 7,
+        nombre: "kit Escolar Basica.",
+        precio: 18000,
+        img: "./img/3.jpg",
+        cantidad: 1,
+    },{
+        id: 8,
+        nombre: "kit Escolar Basica",
+        precio: 18990,
+        img: "./img/4.jpg",
+        cantidad: 1,
+    },{
+        id: 9,
+        nombre: "kit Escolar Basica",
+        precio: 26890,
+        img: "./img/5.jpg",
+        cantidad: 1,
+    },
+];

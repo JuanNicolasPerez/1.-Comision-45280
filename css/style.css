@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+}
+
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: rgb(64, 151, 205);
+}
+
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    color: white;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3,5vh;
+    cursor: pointer;
+}
+
+.contentProdc{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    border: solid 1px blue;
+    box-shadow: solid 1px blue;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+.card  img{
+    width: 220px;
+    height: 250px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(64, 151, 205);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
+
+/* Alert Modal */
+.content-modal{
+    width: 60%;
+    margin: 0 40%;
+    max-height: 88vh;
+    color: white;
+    background-color: rgb(64, 151, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.content-modal::-webkit-scrollbar{
+    display: none;
+}
+
+.modal-header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(64, 151, 205);
+    color: white;
+    width: 100%;
+}
+
+.modal-header-title{
+    justify-self: start;
+    cursor: pointer;
+}
+
+.content-modal > .modal-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+.modal-content > div {
+    height: 120px;
+    width: 220px;
+}
+
+.modal-content > img {
+    height: 100px;
+    width: 100px;
+}
+
+.total-content{
+    font-size: 23px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sumar,
+.restar{
+    cursor: pointer;
+}
+
+/* button delete */
+.delete-product{
+    cursor: pointer;
+    font-size: 30px;
+}
